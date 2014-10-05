@@ -1,2 +1,51 @@
-<h1>Asset Page</h1>
-<p>This is the page where we list all the assets available in this organization</p>
+<h1>Asset List</h1>
+<p> All the assets purchased by the company</p>
+<br>
+
+<%= link_to "Add New Asset", newasset_path, class:"btn btn-primary btn-lg pull-right" %>
+<br><br><br>
+
+<table class="table table-hover">
+    <tr>
+    <th style="width:7%">Item #</th>
+    <th>Asset Name</th>
+    <th>Date Purchased</th> 
+    <th>Asset Custodian</th>
+    <th>Last Checked</th>
+    <th>Remark</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Miniport Display Adapter</td>
+    <td>02 October 2012</td> 
+    <td>Mohd Farid Mohd Nor</td>
+    <td>10 September 2013</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>HP All-functional-printer</td>
+    <td>01 January 2013</td> 
+    <td>Elsri Fublirita Syahrial</td>
+    <td>13 June 2013</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Apple MacBook Air 11"</td>
+    <td>01 June 2014</td> 
+    <td>Elsri Fublirita Syahrial</td>
+    <td>01 June 2014</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Apple iMac 27"</td>
+    <td>01 June 2014</td> 
+    <td>Mohd Sobrie Md Noor</td>
+    <td>Not Available</td>
+    <td></td>
+  </tr>
+</table>
+
+<p>Total <b>4</b> assets<p>

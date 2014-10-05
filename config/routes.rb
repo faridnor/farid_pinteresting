@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get "test" => "pages#test"
   get "asset" => "pages#asset"
   get "report"=> "pages#report"
+  get "newasset" => "pages#newasset"
+
   
   # get 'pages/home'
 

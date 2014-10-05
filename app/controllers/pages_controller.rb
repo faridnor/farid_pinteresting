@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def report
   end
+
+  def newasset
+  end
 end
